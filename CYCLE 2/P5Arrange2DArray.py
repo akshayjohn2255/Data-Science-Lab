@@ -1,0 +1,17 @@
+import numpy as np
+a=np.arange(0,30,2)
+print("first 15 even numbers as  elements:")
+print(a) 
+print("Elements from index 2 to 8 with step 2:")
+print(a[2:9:2])
+print("Elements from index 2 to 8 using slice function:")
+
+print(a[slice(2, 9, 2)])
+print("Last 3 elements of the array using negative index:")
+print(a[-3:-1])
+print("Alternate elements of the array:")
+print(a[::2])
+print("Display the last 3 alternate elements:")
+print(a[-3:-1:2])
+print("Display the elements from indices 4 to 10 in descending order:")
+print(a[10:4:-1])
